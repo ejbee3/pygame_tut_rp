@@ -172,7 +172,7 @@ while running:
     if pygame.sprite.spritecollideany(player, enemies):
         # If so, then remove the player and stop the loop
         crunch_sound.play()
-        pygame.time.wait(30000)
+        pygame.time.wait(2000)
         player.kill()
         running = False
 
